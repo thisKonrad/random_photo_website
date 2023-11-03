@@ -1,0 +1,151 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+ 
+:root{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 100%;
+}
+ 
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0em auto;
+    background: white;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem;
+    gap: 1rem;
+}
+
+.title{
+    font-size: 2.4rem;
+    color: rgba(0, 0, 0, 0.6);
+    letter-spacing: 8px;
+    line-height: 3rem;
+    text-shadow: 0rem 0.3rem 0.6rem rgba(0, 0, 0, 0.4);
+}
+
+.image{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    height: 60%;
+    width: 100%;
+}
+
+img{
+    border-radius:  0.5rem;
+    box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.4);
+}
+
+.image_wrap {
+    margin-top: 8%;
+    grid-area: 2/ 2/ 3/ -2;
+    display: grid;
+    grid-template-columns: 2% 1fr 1fr 1fr 1fr 2%;
+    grid-template-rows: repeat(8, 1fr);
+    gap: 2rem;
+}
+#image_one {
+    grid-area: 1/ 2/ 1/ 3;
+}
+#image_two {
+    grid-area: 1/ 3/ 1/ 4;
+}
+#image_three {
+    grid-area: 1/ 4/ 1/ 5;
+}
+#image_four {
+    grid-area: 1/ 5/ 1/ 6;
+}
+#image_five {
+    grid-area: 2/ 2/ 2/ 3;
+}
+#image_six {
+    grid-area: 2/ 3/ 2/ 4;
+}
+#image_seven {
+    grid-area: 2/ 4/ 2/ 5;
+}
+#image_eight {
+    grid-area: 2/ 5/ 2/ 6;
+}
+#image_nine {
+    grid-area: 3/ 2/ 3/ 3;
+}
+#image_ten {
+    grid-area: 3/ 3/ 3/ 4;
+}
+#image_eleven {
+    grid-area: 3/ 4/ 3/ 5;
+}
+#image_twelve {
+    grid-area: 3/ 5/ 3/ 6;
+}
+#image_thirteen {
+    grid-area: 4/ 2/ 4/ 3;
+}
+#image_fourteen {
+    grid-area: 4/ 3/ 4/ 4;
+}
+#image_fivteen {
+    grid-area: 4/ 4/ 4/ 5;
+}
+#image_sixteen {
+    grid-area: 4/ 5/ 4/ 6;
+}
+#image_seventeen {
+    grid-area: 5/ 2/ 5/ 3;
+}
+#image_eighteen {
+    grid-area: 5/ 3/ 5/ 4;
+}
+#image_nineteen {
+    grid-area: 5/ 4/ 5/ 5;
+}
+#image_twenty {
+    grid-area: 5/ 5/ 5/ 6;
+}
+#image_twentyone {
+    grid-area: 6/ 2/ 6/ 3;
+}
+#image_twentytwo {
+    grid-area: 6/ 3/ 6/ 4;
+}
+#image_twentythree {
+    grid-area: 6/ 4/ 6/ 5;
+}
+#image_twentyfour {
+    grid-area: 6/ 5/ 6/ 6;
+}
+#image_twentyfive {
+    grid-area: 7/ 2/ 7/ 3;
+}
+#image_twentysix {
+    grid-area: 7/ 3/ 7/ 4;
+}
+#image_twentyseven {
+    grid-area: 7/ 4/ 7/ 5;
+}
+#image_twentyeight {
+    grid-area: 7/ 5/ 7/ 6;
+}
+#image_twentynine {
+    grid-area: 8/ 2/ 8/ 3;
+}
+#image_thirty {
+    grid-area: 8/ 3/ 8/ 4;
+}
+#image_thirtyone{
+    grid-area: 8/ 4/ 8/ 5;
+}
+#image_thirtytwo {
+    grid-area: 8/ 5/ 8/ 6;
+}
+
+/* :::: Media Queries :::: */
+
