@@ -11,3 +11,10 @@ body{
     margin: 0em auto;
     background: white;
 }
+
+.image{
+    width: 400px;
+    height: 300px;
+    border: none;
+    border-radius:  0.25rem;
+}
