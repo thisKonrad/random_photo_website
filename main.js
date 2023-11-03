@@ -4,57 +4,37 @@ const images = document.querySelectorAll('img');
 /** array for the url collection:  */
 let imageSourceArray = [];
 
+
+function changeUrlEnd() {
+
+
+/* declare a variable for the random number of the url":*/
+let imageNumber;
+
+let randomNumber = Math.floor(Math.random() * ( 100 - 1) + 1);
+
 /** push every url in an array: */
 images.forEach( image => {
 
     let imageSource = image.getAttribute('src');
 
-    imageSourceArray.push(imageSource);
+    let urlArray = Array.from(imageSource);
 
-});
+    console.log("ArrayLEngth: ", urlArray.length);
 
-console.log(imageSourceArray);
 
-function changeUrlEnding(){
+    for( let i = 0; i < urlArray.length; i ++){
+/* let sign = urlArray[i]; */
 
-/* declare a variable for the random number of the url":*/
-let imageNumber;
-
-let randomImage = Math.floor(Math.random() * ( 100 - 1) + 1);
-
-for( let i = 0; i < imageSourceArray.length; i++){
-
-    /* get the url */
-    let sourceUrl = imageSourceArray[i];
-
-    /* loop over the urls and get the last letter */
-    for( let letter of sourceUrl){
-
-        console.log('letter-length: ',letter.length);
-
-        if( letter.length === 38){
-
-            imageNumber = letter.charAt(-1);
-
-            imageNumber = `${randomImage}`;
-            
-        }
-        if( letter.length === 39){
-            
-            imageNumber = letter.charAt(-2);
-
-            imageNumber = `${randomImage}`;
-
-        }
+        urlArray.length === 38 ? urlArray.splice(-1, 1, randomNumber) : null;
+        urlArray.length === 39 ? urlArray.splice(-2, 2, randomNumber) : null;
 
     }
 
-};
+    console.log("randomArrays: ", urlArray);
+
+
+
+});
 
 }
-
-
-
-setInterval(()=>{ changeUrlEnding() },(3000));
-
-
