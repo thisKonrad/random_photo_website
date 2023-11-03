@@ -29,8 +29,6 @@ function changeUrlEndings(){
 
         /* replace the image src: */
         image.setAttribute("src", urlArrayToString);
-
-        image.classList.add('image_change');
     
     });
     

@@ -25,6 +25,7 @@ header {
     color: rgba(0, 0, 0, 0.6);
     letter-spacing: 8px;
     line-height: 3rem;
+    text-shadow: 0rem 0.3rem 0.6rem rgba(0, 0, 0, 0.4);
 }
 
 .image{
@@ -39,15 +40,6 @@ header {
 img{
     border-radius:  0.5rem;
     box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.4);
-}
-
-.image_change{
-    animation: 4s blur linear infinite;
-    transition: 0.25s;
-}
-@keyframes blur {
-    0%{ opacity: 0}
-    25%{ opacity: 1}  
 }
 
 .image_wrap {
