@@ -12,9 +12,28 @@ body{
     background: white;
 }
 
-.image{
-    width: 400px;
-    height: 300px;
+.wrapper {
+    display: grid;
+    grid-template-columns: 2% 1fr 1fr 1fr 1fr 2%;
+    grid-template-rows: 12% repeat(4, 22%);
+    gap: 1rem;
+}
+
+header {
+    grid-area: 1/ 1/ 1/ -1;
+}
+/* .image{
+    width: 300px;
+    height: 220px;
     border: none;
     border-radius:  0.25rem;
+} */
+#image_one {
+    grid-area: 2/ 2/ 2/ 3;
+}
+#image_two {
+    grid-area: 2/ 3/ 2/ 4;
+}
+#image_three {
+    grid-area: 2/ 4/ 2/ 5;
 }
