@@ -15,40 +15,46 @@ images.forEach( image => {
 
 console.log(imageSourceArray);
 
+function changeUrlEnding(){
+
 /* declare a variable for the random number of the url":*/
 let imageNumber;
+
+let randomImage = Math.floor(Math.random() * ( 100 - 1) + 1);
 
 for( let i = 0; i < imageSourceArray.length; i++){
 
     /* get the url */
     let sourceUrl = imageSourceArray[i];
 
-    console.log(sourceUrl);
-
-
     /* loop over the urls and get the last letter */
     for( let letter of sourceUrl){
 
-        console.log('letter: ',letter.length);
+        console.log('letter-length: ',letter.length);
 
         if( letter.length === 38){
 
             imageNumber = letter.charAt(-1);
 
-            imageNumber = `${randomSingle}`;
+            imageNumber = `${randomImage}`;
             
         }
         if( letter.length === 39){
             
             imageNumber = letter.charAt(-2);
 
-            imageNumber = `${randomDouble}`;
+            imageNumber = `${randomImage}`;
+
         }
 
     }
 
 };
 
+}
 
+
+
+setInterval(()=>{ changeUrlEnding() },(3000));
 
 
