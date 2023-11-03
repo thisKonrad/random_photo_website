@@ -18,14 +18,14 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 2rem;
+    padding: 4rem;
     gap: 1rem;
     font-size: 2.4rem;
     letter-spacing: 8px;
     line-height: 12px;
 }
 .image{
-    margin-top: 18%;
+    margin-top: 26%;
     display:flex;
     justify-content: center;
     align-items: center;
@@ -65,4 +65,53 @@ header {
 }
 #image_eight {
     grid-area: 2/ 5/ 2/ 6;
+}
+#image_nine {
+    grid-area: 3/ 2/ 3/ 3;
+}
+#image_ten {
+    grid-area: 3/ 3/ 3/ 4;
+}
+#image_eleven {
+    grid-area: 3/ 4/ 3/ 5;
+}
+#image_twelve {
+    grid-area: 3/ 5/ 3/ 6;
+}
+#image_thirteen {
+    grid-area: 4/ 2/ 4/ 3;
+}
+#image_fourteen {
+    grid-area: 4/ 3/ 4/ 4;
+}
+#image_fivteen {
+    grid-area: 4/ 4/ 4/ 5;
+}
+#image_sixteen {
+    grid-area: 4/ 5/ 4/ 6;
+}
+
+#image_seventeen {
+    grid-area: 5/ 2/ 5/ 3;
+}
+#image_eighteen {
+    grid-area: 5/ 3/ 5/ 4;
+}
+#image_nineteen {
+    grid-area: 5/ 4/ 5/ 5;
+}
+#image_twenty {
+    grid-area: 5/ 5/ 5/ 6;
+}
+#image_twentyone {
+    grid-area: 6/ 2/ 6/ 3;
+}
+#image_twentytwo {
+    grid-area: 6/ 3/ 6/ 4;
+}
+#image_twentythree {
+    grid-area: 6/ 4/ 6/ 5;
+}
+#image_twentyfour {
+    grid-area: 6/ 5/ 6/ 6;
 }
