@@ -16,10 +16,10 @@ function changeUrlEndings(){
         /* replace the default random number of the image url: */
         for( let i = 0; i < urlArray.length; i ++){
     
-            let randomNumber = Math.floor(Math.random() * ( 100 - 1) + 1);
+            let randomNumberOne = Math.floor(Math.random() * ( 100 - 1) + 1);
     
-                urlArray.length === 38 ? urlArray.splice(-1, 1, randomNumber) : null;
-                urlArray.length === 39 ? urlArray.splice(-2, 2, randomNumber) : null;
+                urlArray.length === 38 ? urlArray.splice(-1, 1, randomNumberOne) : null;
+                urlArray.length === 39 ? urlArray.splice(-2, 2, randomNumberOne) : null;
     
         }
     
