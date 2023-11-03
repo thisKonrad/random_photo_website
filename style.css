@@ -90,7 +90,6 @@ header {
 #image_sixteen {
     grid-area: 4/ 5/ 4/ 6;
 }
-
 #image_seventeen {
     grid-area: 5/ 2/ 5/ 3;
 }
@@ -114,4 +113,28 @@ header {
 }
 #image_twentyfour {
     grid-area: 6/ 5/ 6/ 6;
+}
+#image_twentyfive {
+    grid-area: 7/ 2/ 7/ 3;
+}
+#image_twentysix {
+    grid-area: 7/ 3/ 7/ 4;
+}
+#image_twentyseven {
+    grid-area: 7/ 4/ 7/ 5;
+}
+#image_twentyeight {
+    grid-area: 7/ 5/ 7/ 6;
+}
+#image_twentynine {
+    grid-area: 8/ 2/ 8/ 3;
+}
+#image_thirty {
+    grid-area: 8/ 3/ 8/ 4;
+}
+#image_thirtyone{
+    grid-area: 8/ 4/ 8/ 5;
+}
+#image_thirtytwo {
+    grid-area: 8/ 5/ 8/ 6;
 }
