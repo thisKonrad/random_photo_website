@@ -1,9 +1,11 @@
 # random_photo_website
 
 Random Foto Gallery
-
 Pure CSS & Vanilla Script
 
+
+Every 4 Seconds there occurs a new image
+on the page image plates
 
 random images from lorempicsum
 
