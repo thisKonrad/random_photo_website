@@ -151,7 +151,13 @@ img{
 /* :::: Media Queries :::: */
 @media only screen and (max-width: 968px) {
 
-
+    .image_wrap {
+        margin-top: 8%;
+        display: grid;
+        grid-template-columns: 2% 1fr 1fr 2%;
+        grid-template-rows: repeat(16, 1fr);
+        gap: 1.4rem;
+    }
 
 }
 
