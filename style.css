@@ -152,12 +152,23 @@ img{
 /* :::: Media Queries :::: */
 @media only screen and (max-width: 968px) {
 
+    body{
+        text-align:center;
+        width:60%;
+    }
+
+    .title{
+        font-size: 1.8rem;
+        letter-spacing: 4px;
+        line-height: 1.8rem;
+    }
+
     .image_wrap {
         margin-top: 8%;
         display: grid;
-        grid-template-columns: 2% 1fr 1fr 2%;
+        grid-template-columns: 2% 240px 240px 2%;
         grid-template-rows: repeat(16, 1fr);
-        gap: 1.4rem;
+        gap: 1rem;
     }
 
     #image_one {
@@ -188,22 +199,22 @@ img{
         grid-area: 5/ 2/ 5/ 3;
     }
     #image_ten {    
-    grid-area: 5/ 3/ 5/ 4;
+        grid-area: 5/ 3/ 5/ 4;
     }
     #image_eleven { 
-    grid-area: 6/ 2/ 6/ 3;
+        grid-area: 6/ 2/ 6/ 3;
     }
     #image_twelve { 
-    grid-area: 6/ 3/ 6/ 4;
+        grid-area: 6/ 3/ 6/ 4;
     }
     #image_thirteen {   
-    grid-area: 7/ 2/ 7/ 3;
+        grid-area: 7/ 2/ 7/ 3;
     }
     #image_fourteen {
         grid-area: 7/ 3/ 7/ 4;
     }   
     #image_fivteen {
-    grid-area: 8/ 2/ 8/ 3;
+        grid-area: 8/ 2/ 8/ 3;
     }
     #image_sixteen {
         grid-area: 8/ 3/ 8/ 4;
@@ -286,25 +297,25 @@ img{
         grid-area: 5/ 2/ 5/ 3;
     }
     #image_six {
-        grid-area: 6/ 3/ 6/ 4;
+        grid-area: 6/ 2/ 6/ 3;
     }
     #image_seven {
-        grid-area: 7/ 3/ 7/ 4;
+        grid-area: 7/ 2/ 7/ 3;
     }
     #image_eight {
-        grid-area: 8/ 3/ 8/ 4;
+        grid-area: 8/ 2/ 8/ 3;
     }
     #image_nine {
-        grid-area: 9/ 3/ 9/ 4;
+        grid-area: 9/ 2/ 9/ 3;
     }
     #image_ten {    
-        grid-area: 10/ 3/ 10/ 4;
+        grid-area: 10/ 2/ 10/ 3;
     }
     #image_eleven { 
         grid-area: 11/ 2/ 11/ 3;
     }
     #image_twelve { 
-        grid-area: 12/ 3/ 12/ 4;
+        grid-area: 12/ 2/ 12/ 3;
     }
     #image_thirteen {   
         grid-area: 13/ 2/ 13/ 3;
@@ -316,13 +327,13 @@ img{
         grid-area: 15/ 2/ 15/ 3;
     }
     #image_sixteen {
-        grid-area: 16/ 3/ 16/ 4;
+        grid-area: 16/ 2/ 16/ 3;
     }
     #image_seventeen {
-        grid-area: 17/ 2/ 917 3;
+        grid-area: 17/ 2/ 17/ 3;
     }
     #image_eighteen {
-        grid-area: 18/ 3/ 18/ 4;
+        grid-area: 18/ 2/ 18/ 3;
     }
     #image_nineteen {
         grid-area: 19/ 2/ 19/ 3;
@@ -346,13 +357,13 @@ img{
         grid-area: 25/ 2/ 25/ 3;
     }
     #image_twentysix {
-        grid-area: 26/ 3/ 26/ 4;
+        grid-area: 26/ 2/ 26/ 3;
     }
     #image_twentyseven {
-        grid-area: 27/ 2/ 27 3;
+        grid-area: 27/ 2/ 27/ 3;
     }
     #image_twentyeight {
-        grid-area: 28/ 3/ 28/ 4;
+        grid-area: 28/ 2/ 28/ 3;
     }
     #image_twentynine {
         grid-area: 29/ 2/ 29/ 3;
