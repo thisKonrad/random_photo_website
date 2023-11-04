@@ -44,12 +44,13 @@ img{
 
 .image_wrap {
     margin-top: 8%;
-    grid-area: 2/ 2/ 3/ -2;
     display: grid;
     grid-template-columns: 2% 1fr 1fr 1fr 1fr 2%;
     grid-template-rows: repeat(8, 1fr);
     gap: 2rem;
 }
+
+
 #image_one {
     grid-area: 1/ 2/ 1/ 3;
 }
@@ -148,4 +149,9 @@ img{
 }
 
 /* :::: Media Queries :::: */
+@media only screen and (max-width: 968px) {
+
+
+
+}
 
