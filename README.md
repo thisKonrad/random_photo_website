@@ -1,4 +1,4 @@
-# random_photo_website
+# random_photo_gallery
 
 Random Foto Gallery
 Pure CSS & Vanilla Script
